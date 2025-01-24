@@ -48,3 +48,18 @@ body {
 .play-board .head {
     background-color: #d7934f;
 }
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+.controls i {
+    font-size: 1.3rem;
+    padding: 25px 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    width: calc(100% / 4);
+    border-right: 1px solid rgb(247, 245, 245);
+}
